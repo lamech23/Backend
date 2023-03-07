@@ -4,7 +4,7 @@ const express =require ("express");
 const db =require( "./config/Database.js");
 const cors =require('cors')
 require('dotenv').config()
-const userRoute =require('./Routes/User')
+const userRoute =require('./Routes/user')
 const uploadRoute =require('./Routes/Upload')
 const contact =require('./Routes/GetInTouch')
 const moreAboutClient =require('./Routes/ClientMore')
